@@ -11,7 +11,7 @@ export default function App() {
       <Image source={require('./assets/icon.png')} style={styles.images}/>
       <View style={styles.buttonlayout}>
         <View style={{flex:1, display:'flex', flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center',}}>
-          <Button title="Button 1" color="#788b28"/>
+          <Button title="Button" color="#788b28"/>
           <Button title="Button 2" color="#788b28"/>
         </View>
         <View style={{flex:1, display:'flex', flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center',}}>
